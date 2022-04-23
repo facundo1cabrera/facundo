@@ -1,0 +1,63 @@
+.header {
+    min-width: 100%;
+    min-height: 2rem;
+    position: sticky;
+}
+
+.h2 {
+    display: flex;
+    flex:auto;
+}
+.span {
+    color: white;
+    margin-right: 6px;
+}
+
+.h2yellow {
+    display: flex;
+    flex:auto;
+    margin: 10px;
+    margin-left: 30px;
+    color: yellow;
+}
+
+.containerdiv { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    color: white;
+}
+
+.ulist {
+    display: flex; 
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.li {
+    margin: 20px;
+}
+
+.li:hover {
+    color:gray;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+
+@media (max-width: 400px) {
+    .containerdiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    .ulist {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

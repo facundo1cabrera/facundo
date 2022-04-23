@@ -1,0 +1,29 @@
+.section1 {
+    background: url('./../../public/image1.png') no-repeat center center fixed;
+    width: 100%;
+    height: calc(100vh - 20px);
+    margin-bottom: 0;
+}
+
+.divprincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    margin-top: 8rem;
+}
+
+.h2 {
+    color: yellow;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.h2dev {
+    font-size: large;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+}
