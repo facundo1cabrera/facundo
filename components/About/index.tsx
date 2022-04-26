@@ -2,7 +2,7 @@ import styles from './About.module.css';
 
 export const About = () => {
     return (
-        <section className={styles.section}>
+        <section id="about" className={styles.section}>
             <div className={styles.titlecontainer}>
                 <h2 className={styles.h2}>About me</h2>
                 <p className={styles.underline}>________________________</p>
@@ -13,7 +13,7 @@ export const About = () => {
                         <h4 className={styles.darkh4}> Who am i? </h4>
                         <h3 className={styles.h3}> I am Facundo Cabrera, a tech passionate and developer</h3>
                         <p className={styles.p}>I am currently doing some freelance projects as well as others by my own, all of them with react generally with typescript. I`m looking forward to new opportunities to grow as a developer</p>
-                        <button className={styles.button}> Download my CV </button>
+                        <a href='/Facundo-Cabrera.pdf' download className={styles.pdf}> Download my CV </a>
                     </div>
                 </div>
                 <div className={styles.skills}>

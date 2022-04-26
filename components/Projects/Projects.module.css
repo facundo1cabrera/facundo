@@ -72,7 +72,7 @@
 }
 
 .info {
-    width: 100%;
+    width: 95%;
     height: 270px;
     border-radius: 10px;
     color: grey;
@@ -98,8 +98,9 @@
     overflow: hidden;
 }
 
-.info input {
+.info a {
     margin: auto;
+    text-decoration: none;
     margin-top: 15px;
     padding: 10px 40px;
     background-color: black;
@@ -112,7 +113,7 @@
     font-weight: 600;
 }
 
-.info input:hover {
+.info a:hover {
     transition: ease-in .2s;
     background-color: yellow;
     color: black;

@@ -2,7 +2,7 @@ import styles from './Projects.module.css';
 
 export const Projects = () => {
     return (
-        <section id="about" className={styles.section}>
+        <section id="projects" className={styles.section}>
 
             <h2 className={styles.title}>Some of my projects</h2>
 
@@ -18,8 +18,8 @@ export const Projects = () => {
                     </div>
 
                     <div className={styles.info}>
-                        <p>Agrego agreo geoad fsd fsadf sdf sdf sadf sdf sdf asd fas df dsaThis project was build with react, next, typescript and mongo. Fully integrated with the next api funcionalities.</p>
-                        <input type='button' value='Go to project'></input>
+                        <p>Drag and drop your activities to organizate better, check the github readme to know more.</p>
+                        <a href="https://github.com/facundo1cabrera/OpenJiraClon">Go to project</a>
                     </div>
 
                 </div>
@@ -32,8 +32,8 @@ export const Projects = () => {
                     </div>
 
                     <div className={styles.info}>
-                        <p>This project was build with react, next, typescript and mongo. Fully integrated with the next api funcionalities.</p>
-                        <input type='button' value='Read more'></input>
+                        <p>Full developer e-commerce also integrated with paypal. Made with typescript, react, next, mongo and docker</p>
+                        <a href="https://github.com/facundo1cabrera/teslo-shop">Go to project</a>
                     </div>
 
                 </div>
@@ -41,13 +41,13 @@ export const Projects = () => {
                 <div className={styles.card}>
 
                     <div className={styles.icon}>
-                        <h3>X-project</h3>
+                        <h3>Contacts API</h3>
                         <p>_______________________</p>
                     </div>
 
                     <div className={styles.info}>
-                        <p>This project was build with react, next, typescript and mongo. Fully integrated with the next api funcionalities.</p>
-                        <input  type='button' value='Go to project'></input>
+                        <p>Rest API with JWT auth, sequelize, express. Provides different endpoints to create, read, delete and update your contacts</p>
+                        <a href="https://github.com/facundo1cabrera/app-contactos">Go to github</a>
                     </div>
 
                 </div>
