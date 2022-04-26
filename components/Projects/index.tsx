@@ -1,9 +1,8 @@
 import styles from './Projects.module.css';
-import Image from 'next/image';
 
 export const Projects = () => {
     return (
-        <section className={styles.section}>
+        <section id="about" className={styles.section}>
 
             <h2 className={styles.title}>Some of my projects</h2>
 

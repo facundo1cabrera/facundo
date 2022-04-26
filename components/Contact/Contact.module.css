@@ -1,0 +1,70 @@
+.section {
+    height: 130vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section h2 {
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 0;
+}
+.section p {
+    color: yellow;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 5rem;
+
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    font-size: 12px;
+    padding: 15px;
+    color: #999;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    margin-bottom: 10px;
+    border: solid 1px #ccc;
+    padding: 10px;
+    outline: none;
+}
+
+.button {
+    margin: 5px;
+    background-color: darkgray;
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: yellow;
+    transition: all ease .3s;
+}
+
+@media (max-width: 476px) {
+    .section {
+        margin-top: 20rem;
+    }
+    .section h2 {
+        margin-top: 18rem;
+    }
+}

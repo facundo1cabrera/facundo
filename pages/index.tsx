@@ -3,10 +3,9 @@ import { ImageSection } from '../components/imageSection';
 import { About } from '../components/About';
 import { Projects } from '../components/Projects';
 
-
 const Home: NextPage = () => {
   return (
-    <>    
+    <>     
       <main>
         <ImageSection />
         <About />

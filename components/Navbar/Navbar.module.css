@@ -40,6 +40,16 @@
     margin: 20px;
 }
 
+.li a {
+    text-decoration: none;
+    color: white;
+}
+.li a:hover {
+    color:gray;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+
 .li:hover {
     color:gray;
     cursor: pointer;
